@@ -6,12 +6,9 @@
 ##
 
 SRC =	$(wildcard *.c) \
-		$(wildcard ./lib/my/src/conv/*.c) \
-		$(wildcard ./lib/my/src/flags/*.c) \
-		$(wildcard ./lib/my/src/precision/*.c) \
-		$(wildcard ./lib/my/src/width/*.c) \
 		$(wildcard ./lib/my/utils/*.c) \
-		$(wildcard ./lib/my/*.c)
+		$(wildcard ./lib/my/*.c) \
+		$(wildcard ./src/*.c)
 
 OBJ = 	$(SRC:.c=.o)
 
