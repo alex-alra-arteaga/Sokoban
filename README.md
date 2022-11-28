@@ -1,0 +1,1 @@
+Compile with "make" and launch the Sokoban videogame with "./my_sokoban map"
